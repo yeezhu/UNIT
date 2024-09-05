@@ -1,5 +1,5 @@
 from collections import namedtuple
-from typing import Optional, List, Tuple
+from typing import Optional, Union, Tuple
 
 import torch
 from torch import nn
@@ -28,7 +28,7 @@ class UNITConfig(PretrainedConfig):
     def __init__(
         self,
         args: Optional[dict] = None,
-        version: Optional[str] = DEFAULT_VERSION,
+        version: Optional[str] = "v1",
         **kwargs,
     ):
         self.args = args
@@ -93,7 +93,7 @@ class UNITModelEncoder(nn.Module):
         x = self.model.norm(x)
         
         cls_tokens = x[:, 0]
-        visual_tokens = x[:, self.model.patch_generator.num_skip:]
+        spatial_tokens = x[:, self.model.patch_generator.num_skip:]
 
         return cls_tokens, spatial_tokens
 
@@ -140,4 +140,4 @@ class UNITModel(PreTrainedModel):
         )
 
     def forward(self, x: torch.Tensor):
-        return self.unit.forward(x)
+        return self.unit_model.forward(x)
