@@ -43,4 +43,4 @@ with torch.set_grad_enabled(False):
 
 ## Model Zoo
 
-Please refer to here to obtain our pretrained UNIT_600M model.
+Please refer to [here](https://huggingface.co/yeeaa/UNIT_600M/) to obtain our pretrained UNIT_600M model.
