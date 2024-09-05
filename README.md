@@ -1,4 +1,4 @@
-# UNIT: Unifying Image and Text Recognition in One Vision Encoder
+# Pytorch implementation of "UNIT: Unifying Image and Text Recognition in One Vision Encoder"
 
 
 ## Install
