@@ -17,6 +17,7 @@ This project supports both NVIDIA and Ascend GPUs.
 ## Usage
 
 ```Python
+import torch
 from PIL import Image
 from transformers import CLIPImageProcessor
 
