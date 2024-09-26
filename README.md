@@ -67,3 +67,12 @@ with torch.set_grad_enabled(False):
 | UNIT-600M                    |       63.89 | 61.52|  61.0 |      65.49 |       31.92 | 480|  85.81 |  1529.76 | 72.81 |  44.6 |  
 | UNIT-1B                    |       64.90 | 56.78 |  66.64 |      71.34 |       34.81 | 540 |   87.54 |  1531.92 | 73.15 |  44.3 | 
 
+## Citation
+If you use the code in your research, please cite:
+
+@INPROCEEDINGS{Zhu2024UNIT,
+    author = {Zhu, Yi and Zhou, Yanpeng and Wang, Chunwei and Cao, Yang and Han, Jianhua and Hou, Lu and Xu, Hang.},
+    title = {UNIT: Unifying Image and Text Recognition in One Vision Encoder},
+    booktitle = {The Thirty-eighth Annual Conference on Neural Information Processing Systems (NeurIPS)},
+    year = {2024}
+}
