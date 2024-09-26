@@ -70,9 +70,11 @@ with torch.set_grad_enabled(False):
 ## Citation
 If you use the code in your research, please cite:
 
+```bib
 @INPROCEEDINGS{Zhu2024UNIT,
     author = {Zhu, Yi and Zhou, Yanpeng and Wang, Chunwei and Cao, Yang and Han, Jianhua and Hou, Lu and Xu, Hang.},
     title = {UNIT: Unifying Image and Text Recognition in One Vision Encoder},
     booktitle = {The Thirty-eighth Annual Conference on Neural Information Processing Systems (NeurIPS)},
     year = {2024}
 }
+```
