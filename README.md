@@ -1,6 +1,6 @@
 ## UNIT: Unifying Image and Text Recognition in One Vision Encoder
 
-- Paper: [Arxiv](https://arxiv.org/abs/2409.04095)
+- Paper: [Arxiv](https://arxiv.org/abs/2409.04095) [NeurIPS 2024]
 - Model: [UNIT_600M](https://huggingface.co/yeeaa/UNIT_600M/tree/main), [UNIT_1B](https://huggingface.co/yeeaa/UNIT_1B/tree/main)
 
 
